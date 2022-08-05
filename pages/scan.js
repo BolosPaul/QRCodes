@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Button from '@mui/material/Button'
 
 const scan = () => {
-    const [data, setData] = React.useState("No result");
+    const [data, setData] = React.useState("No Result");
     return (
       <div className={styles.container}>
       <div className={styles.container}>
@@ -23,7 +23,7 @@ const scan = () => {
         constraints	={{ facingMode:  "environment"  }}
           style={{ width: "40%", height: "40%" }} className={styles.scanner}
         />
-        <p>{data}</p>
+        <p className={styles.p}>{data}</p>
         <a href={data} className={styles.gotolink}>GO TO LINK</a>
       </div>
     </div>

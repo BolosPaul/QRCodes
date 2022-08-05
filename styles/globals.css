@@ -2,8 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: white;
+    background: #121212;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif !important;
+    /* font-family: 'Roboto', sans-serif !important; */
 }
 
 a {
@@ -21,6 +24,12 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #121212
+  }
+  .card1 {
+    background-image: url(../assets/images/scanner-white.png);
+  }
+  .card2 {
+    background-image: url(../assets/images/generator-white.png);
   }
 } */
